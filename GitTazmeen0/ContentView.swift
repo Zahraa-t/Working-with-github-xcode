@@ -15,7 +15,7 @@ struct ContentView: View {
                 .font(.largeTitle)
                 .foregroundStyle(.tint)
             Text("Fun with github")
-            Text("Modifying text will add an M to your file")
+            Text("'origin/main' means the copy of the main branch on GitHub, whereas 'main' refers to the main branch on the local repo (on your computer)")
         }
         .padding()
     }
