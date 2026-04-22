@@ -11,7 +11,14 @@ struct Cat: View {
     var body: some View {
         VStack {
             Text("This is cat file")
+            Text("Here resides a cat named tom")
+            Text("🐈")
+                .font(.largeTitle)
         }
         .padding()
     }
+}
+
+#Preview {
+    Cat()
 }
