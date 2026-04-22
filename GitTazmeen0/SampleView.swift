@@ -12,7 +12,6 @@ struct SampleView: View {
         VStack {
             Text("This is a sample")
         }
-        .padding()
     }
 }
 
